@@ -7,7 +7,7 @@ class LocatiiPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 132, 103, 103),
       appBar: AppBar(
         centerTitle: true,
         title: Text(
