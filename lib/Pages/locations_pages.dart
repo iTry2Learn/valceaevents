@@ -17,7 +17,7 @@ class LocatiiPage extends StatelessWidget {
         iconTheme: const IconThemeData(
           color: Colors.white,
         ), // ← adaugă această linie
-        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+        backgroundColor: const Color.fromARGB(255, 255, 0, 0),
       ),
       body: const RestaurantListview(),
     );
